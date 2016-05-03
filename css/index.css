@@ -420,3 +420,55 @@ img {
   line-height: 42px;
   text-align: center;
 }
+.foot {
+  margin-bottom: 55px;
+  background: #fff;
+  color: #5c5c5c;
+  font-size: 14px;
+  line-height: 3em;
+  text-align: center;
+}
+.foot .foot-top {
+  padding: 13px 0;
+}
+.foot .foot-top .nr-box {
+  width: 33.33333333%;
+  border-right: solid 1px #d6d6d6;
+  color: #666;
+  font-size: 11px;
+  float: left;
+}
+.foot .foot-top .nr-box p {
+  border: 1px solid #aaa;
+  border-radius: 50px;
+  color: #666;
+  display: block;
+  font-size: 12px;
+  height: 31px;
+  line-height: 31px;
+  margin: 0 auto;
+  width: 31px;
+}
+.foot .foot-top .nr-box span {
+  display: block;
+  height: 12px;
+  line-height: 12px;
+  margin-top: 7px;
+}
+.foot .foot-top .nr-box:last-child {
+  border-right: none;
+}
+.foot .foot-bottom {
+  border-top: solid 1px #d6d6d6;
+  font-size: 10px;
+  line-height: 37px;
+  color: #999999;
+}
+.foot .foot-bottom p a {
+  color: #999999;
+}
+.foot .foot-bottom p:last-child {
+  font-size: 10px;
+  line-height: 10px;
+  padding-bottom: 10px;
+}
